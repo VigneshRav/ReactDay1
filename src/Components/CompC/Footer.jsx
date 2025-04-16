@@ -1,9 +1,9 @@
 import React from 'react';
-import "./CompC.css"
+import "./Footer.css"
 const CompC = () => {
     return (
         <div>
-            <h1 id='htag'>Component C</h1>
+            <h1 id='htag'>Footer</h1>
         </div>
     );
 };

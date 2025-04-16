@@ -1,19 +1,18 @@
 //import part
 import React from 'react';
-import CompA from './Components/CompA/CompA';
-import CompB from './Components/CompB/CompB';
-import CompC from './Components/CompC/CompC';
-import Home from './Components/Home/Home';
+import CompA from './Components/CompA/Header';
+import CompB from './Components/CompB/Content';
+import CompC from './Components/CompC/Footer';
 const App = () => {
   //js part
+  const Batch = "FSD-WD-T-B-21"
   return (
     //html part
     <>
-     <h1>App Component</h1>
+    {Batch}
      <CompA />
      <CompB />
      <CompC />
-     <Home />
     </>
   );
 };
